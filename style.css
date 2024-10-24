@@ -1,0 +1,886 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 2550px;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+/* Page 1 */
+
+.logo{
+    position: relative;
+    left: 167px;
+    top: 40px;
+}
+
+.anchor{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    margin: 40px 20px;
+    justify-content: space-between;
+    position: absolute;
+    right: 390px;
+    gap: 30px;
+    font-size: 14px;
+}
+
+.nav-links a:hover{
+    color: hsl(256, 26%, 20%);
+}
+
+.nav-links a{
+    animation-name: hamburger;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    color: hsl(216, 30%, 68%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.nav-links button{
+    display: none;
+    position: relative;
+    bottom: 25px;
+    left: 0px;
+    background-color: hsl(270, 9%, 17%);
+    color: white;
+    border: 2px solid;
+}
+
+.hamburger{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+}
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 25px;
+    position: relative;
+    right: 168px;
+    border-radius: 0%;
+    padding: 12px 35px;
+    color: hsl(256, 26%, 20%);
+    background-color: white;
+    border-width: 3px;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    color: white;
+    background-color: hsl(256, 26%, 20%);
+}
+
+.mobile{
+    display: none;
+}
+
+.heading .img3{
+    position: absolute;
+    left: 1900px;
+    bottom: 850px;
+    opacity: 50%;
+    transform: scale(93%);
+    background-attachment: fixed;
+}
+
+.img4{
+    position: absolute;
+    right: 1219px;
+    top: 190px;
+    width: 300px;
+}
+
+.heading{
+    background-color: hsl(256, 26%, 20%);
+    height: 690px;
+}
+
+.heading h1{
+    position: relative;
+    left: 167px;
+    top: 175px;
+    font-weight: 450px;
+    color: white;
+    font-size: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading h2{
+    position: relative;
+    left: 173px;
+    top: 165px;
+    font-weight: 450px;
+    color: white;
+    font-size: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading .para{
+    position: relative;
+    left: 172px;
+    top: 203px;
+    font-weight: 100;
+    color: white;
+    font-size: 17.5px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading .para1{
+    display: none;
+    position: relative;
+    left: 172px;
+    top: 203px;
+    font-weight: 100;
+    color: white;
+    font-size: 17.5px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 140px;
+    top: 220px;
+    margin: 33px;
+    border-radius: 0%;
+    border-color: white;
+    padding: 12px 40px;
+    color: white;
+    background-color: hsl(256, 26%, 20%);
+    border-width: 2.5px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.heading button:hover{
+    color: hsl(256, 26%, 20%);
+    background-color: white;
+}
+
+.heading img{
+    position: absolute;
+    right: 195px;
+    top: 200px;
+    height: 750px;
+}
+
+.heading .img2{
+    position: absolute;
+    right: 1270px;
+    top: 300px;
+    opacity: 30%;
+}
+
+/* Page 2 */
+
+.img5{
+    position: absolute;
+    right: 1219px;
+    top: 1000px;
+    width: 300px;
+}
+
+.page2 h1{
+    position: relative;
+    left: 167px;
+    top: 310px;
+    font-weight: 450px;
+    color: black;
+    font-size: 73px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page2 .snappy{
+    position: absolute;
+    right: 1410px;
+    top: 1310px;
+}
+
+.page2 .price{
+    position: absolute;
+    right: 932px;
+    top: 1310px;
+}
+
+.page2 .people{
+    position: absolute;
+    right: 500px;
+    top: 1310px;
+}
+
+.page2 h3{
+    position: relative;
+    left: 185px;
+    top: 580px;
+    color: black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page2 h3:nth-child(2){
+    position: relative;
+    left: 655px;
+    top: 553px;
+    color: black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page2 h3:last-child{
+    position: relative;
+    left: 1090px;
+    top: 525px;
+    color: black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page2 .write-up{
+    position: relative;
+    left: 185px;
+    top: 560px;
+    font-weight: bold;
+    color: hsl(216, 30%, 68%);
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page2 .write-up2{
+    position: relative;
+    left: 650px;
+    top: 485px;
+    font-weight: bold;
+    color: hsl(216, 30%, 68%);
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page2 .write-up3{
+    position: relative;
+    left: 1090px;
+    top: 410px;
+    font-weight: bold;
+    color: hsl(216, 30%, 68%);
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Page 3 */
+
+.page3{
+    background-color: hsl(256, 26%, 20%);
+    height: 260px;
+    margin-left: 179px;
+    margin-right: 192px;
+    margin-top: 575px;
+}
+
+.page3 h1{
+    position: relative;
+    left: 70px;
+    top: 60px;
+    font-weight: 300px;
+    color: white;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page3 h2{
+    position: relative;
+    left: 70px;
+    top: 40px;
+    font-weight: 300px;
+    color: white;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page3 button{
+    position: absolute;
+    right: 250px;
+    top: 1840px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0%;
+    border-color: white;
+    padding: 12px 30px;
+    color: white;
+    background-color: hsl(256, 26%, 20%);
+    border-width: 2px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+
+.page3 button:hover{
+    color: hsl(256, 26%, 20%);
+    background-color: white;
+}
+
+.footer{
+    background-color: rgba(238, 238, 238, 0.171);
+    height: 500px;
+    display: fixed;
+    justify-content: space-around;
+    position: relative;
+    left: 0px;
+    top: 210px;
+}
+
+.footer .logo2{
+    display: flex;
+    position: relative;
+    left: 180px;
+    bottom: 100px;
+    z-index: 2;
+}
+
+.footer .social{
+    position: relative;
+    left: 1330px;
+    bottom: 125px;
+}
+
+hr{
+    position: absolute;
+    bottom: 340px;
+    left: 180px;
+    right: 193px;
+}
+
+.footer .info{
+    display: flex;
+    justify-content: left;
+    gap: 250px;
+    position: relative;
+    bottom: 20px;
+    left: 180px;
+    color: #837d88;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: hsl(256, 26%, 20%);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer a:hover{
+    border-bottom: 2px solid;
+}
+
+.footer .company{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    top: 20px;
+    left: 180px
+}
+
+.footer .help{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    left: 543px;
+    bottom: 100px;
+}
+
+.footer .contact{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    left: 860px;
+    bottom: 220px;
+}
+
+.footer .others{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    left: 1183px;
+    bottom: 309px;
+    list-style: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page3 .pattern{
+    position: absolute;
+    right: 190px;
+    top: 1752px;
+    width: 400px;
+    height: 260px;
+    overflow: hidden;
+    opacity: 50%;
+    background-attachment: fixed;
+}
+
+@keyframes hamburger {
+    from{
+        transform: translateY(-550px);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px){
+
+    .logo{
+        display: flex;
+        position: relative;
+        left: 80px;
+        top: 40px;
+        height: 27px;
+    }
+    
+    .nav-links{
+        display: none;
+        gap: 40px;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        width: 100%;
+        background-color: hsl(270, 9%, 17%);
+        padding: 30px;
+        height: 200px;
+    }
+
+    .nav-links a:hover{
+        display: flex;
+        color: white;
+    }
+
+    .nav-links a{
+        display: flex;
+        color: white;
+    }
+
+    .nav-links a:hover{
+        border-bottom: 2px solid;
+    }
+
+    .view button{
+        display: none;
+        margin: 25px;
+        position: absolute;
+        border-radius: 0%;
+        padding: 12px 35px;
+        color: white;
+        background-color: hsl(270, 9%, 17%);
+        border-width: 3px;
+        font-size: 14px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+
+    .nav-links button{
+        display: flex;
+        position: relative;
+        bottom: 25px;
+        left: 0px;
+        background-color: hsl(270, 9%, 17%);
+        color: white;
+        border: 2px solid;
+    }
+
+    .hamburger{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+    }
+    
+    button:hover{
+        background-color: white;
+        color: hsl(256, 26%, 20%);
+    }
+
+    .mobile{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 6%;
+        position: absolute;
+        right: 0;
+        left: 0px;
+        top: 95px;
+        z-index: 1;
+    }
+
+    .heading img{
+        display: none;
+    }
+
+    .heading{
+        display: block;
+        background-color: hsl(256, 26%, 20%);
+        margin: 0 6%;
+        width: 89.5%;
+        position: absolute;
+        top: 745px;
+    }
+
+    .heading h1{
+        display: flex;
+        justify-content: right;
+        align-items: left;
+        margin-right: 240px;
+        font-size: 60px;
+    }
+    
+    .heading h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        position: absolute;
+        left: 30px;
+        top: 240px
+    }
+    
+    .heading .para{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        line-height: 30px;
+        top: 250px;
+        left: 40px;
+    }
+
+    .heading .para1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+        line-height: 30px;
+        top: 260px;
+        left: 7px;
+    }
+    
+    .heading button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 280px;
+    }
+ 
+    .img5{
+        display: flex;
+        justify-content: center;
+        right: 150px;
+        top: 1600px;
+        width: 300px;
+    }
+    
+    .page2 h1{
+        position: relative;
+        left: 100px;
+        top: 1620px;
+        font-weight: 100px;
+        color: black;
+        font-size: 50px;
+    }
+
+    .page2 .snappy{
+        position: absolute;
+        right: 250px;
+        top: 1800px;
+    }
+ 
+    .page2 h3{
+        display: flex;
+        justify-content: center;
+        left: 0px;
+        top: 1840px;
+        font-size: 40px;
+    }
+
+    .page2 .write-up{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        left: 10px;
+        top: 1775px;
+        font-size: 20px;
+        line-height: .7;
+        opacity: 25%;
+        font-weight: 200;
+    }
+    
+    .page2 .price{
+        position: absolute;
+        right: 250px;
+        top: 2125px;
+    }
+    
+    .page2 h3:nth-child(2){
+        display: flex;
+        justify-content: center;
+        left: 0px;
+        top: 2130px;
+        font-size: 40px;
+    }
+
+    .page2 .write-up2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        left: 10px;
+        top: 2050px;
+        font-size: 20px;
+        line-height: .7;
+        opacity: 25%;
+        font-weight: 200;
+    }
+
+    .page2 .people{
+        position: absolute;
+        right: 250px;
+        top: 2500px;
+    }
+
+    .page2 h3:last-child{
+        display: flex;
+        justify-content: center;
+        left: 0px;
+        top: 2460px;
+        font-size: 40px;
+    }
+
+    .page2 .write-up3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        left: 10px;
+        top: 2350px;
+        font-size: 20px;
+        line-height: .7;
+        opacity: 25%;
+        font-weight: 200;
+    }
+
+    .page3 .pattern{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 270px;
+        height: 500px;
+        overflow: hidden;
+        opacity: 50%;
+        background-attachment: fixed;
+    }
+
+    .page3{
+        display: block;
+        background-color: hsl(256, 26%, 20%);
+        margin: 0 8%;
+        width: 89.5%;
+        position: absolute;
+        top: 3000px;
+        height: 500px;
+    }
+    
+    .page3 h1{
+        display: flex;
+        justify-content: center;
+        left: 0px;
+        top: 70px;
+        font-weight: 300px;
+        color: white;
+        font-size: 55px;
+    }
+    
+    .page3 h2{
+        display: flex;
+        justify-content: center;
+        left: 70px;
+        top: 60px;
+        font-weight: 0px;
+        color: white;
+        font-size: 55px;
+    }
+    
+    .page3 button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 300px;
+        position: absolute;
+        right: 150px;
+    }
+
+    .footer{
+        background-color: rgba(238, 238, 238, 0.171);
+        height: 1300px;
+        margin: 0 6%;
+        width: 89.5%;
+        display: fixed;
+        justify-content: space-around;
+        position: relative;
+        left: 0px;
+        top: 3250px;
+    }
+    
+    .footer .logo2{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 0px;
+        bottom: 70px;
+        z-index: 2;
+    }
+    
+    .footer .social{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 0px;
+        bottom: 30px;
+        z-index: 2;
+    }
+
+    hr{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 35px;
+        width: 500px;
+        bottom: 700px;
+        z-index: 2;
+    }
+
+    .footer .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 215px;
+        position: relative;
+        top: 80px;
+        left: 0px;
+        color: #837d88;
+        font-size: 26px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .footer a{
+        text-decoration: none;
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: hsl(256, 26%, 20%);
+        font-weight: bolder;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .footer .company{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        bottom: 470px;
+        left: 195px
+    }
+    
+    .footer .help{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        left: 185px;
+        bottom: 570px;
+    }
+    
+    .footer .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        left: 220px;
+        bottom: 370px;
+    }
+    
+    .footer .others{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        left: 225px;
+        bottom: 135px;
+    }
+
+}
